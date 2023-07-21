@@ -1,0 +1,142 @@
+/* Home.css */
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; 
+    object-position: center top; 
+    margin-top: 1em;
+}
+
+.home {
+    padding: 2em;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 50px;
+
+}
+
+.home header {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.home header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.home header h2 {
+    font-size: 1.5em;
+    color: #777;
+}
+
+.home section {
+    margin-bottom: 2em;
+}
+
+.home section h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+/* Contact Details */
+
+.contact-details {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.contact-details i {
+    margin-right: 10px;
+}
+
+.contact-details p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.contact-details a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-details a:hover {
+    color: #007bff;
+}
+
+
+/* Footer */
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* About me */
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7; 
+    border-bottom: 2px solid black;
+
+}
+
+.about-me h2 {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    color: #666;
+    font-size: 1.2em;
+    text-align: justify;
+    width: 70%; 
+    line-height: 1.6;
+}
+
+.about-me img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.about-me .btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333; 
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.about-me .btn:hover {
+    background-color: #666; 
+}

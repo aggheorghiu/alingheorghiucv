@@ -1,0 +1,41 @@
+.contact {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.contact-form {
+    display: grid;
+    grid-gap: 1em;
+}
+
+.contact-form label {
+    display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ddd;    
+}
+
+.contact-form textarea{
+    height: 200px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #333;
+}
