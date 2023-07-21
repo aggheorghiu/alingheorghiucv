@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alingheorghiucv/static/css/main.98833cb0.css",
-    "main.js": "/alingheorghiucv/static/js/main.f8946143.js",
+    "main.js": "/alingheorghiucv/static/js/main.cafc8c12.js",
     "static/js/787.128fc6e9.chunk.js": "/alingheorghiucv/static/js/787.128fc6e9.chunk.js",
     "static/media/CarWash.PNG": "/alingheorghiucv/static/media/CarWash.34f4fda3c7b15012ddb2.PNG",
     "static/media/FileSearch.PNG": "/alingheorghiucv/static/media/FileSearch.0b237b22aeec460334d2.PNG",
@@ -11,11 +11,11 @@
     "static/media/CovidData.PNG": "/alingheorghiucv/static/media/CovidData.0f3dddd3f6d0338e9828.PNG",
     "index.html": "/alingheorghiucv/index.html",
     "main.98833cb0.css.map": "/alingheorghiucv/static/css/main.98833cb0.css.map",
-    "main.f8946143.js.map": "/alingheorghiucv/static/js/main.f8946143.js.map",
+    "main.cafc8c12.js.map": "/alingheorghiucv/static/js/main.cafc8c12.js.map",
     "787.128fc6e9.chunk.js.map": "/alingheorghiucv/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.98833cb0.css",
-    "static/js/main.f8946143.js"
+    "static/js/main.cafc8c12.js"
   ]
 }
