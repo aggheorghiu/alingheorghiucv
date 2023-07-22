@@ -1,4 +1,6 @@
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { process } from 'process';
+
 import Home from './Components/Home';
 import Portfolio from './Components/Portfolio';
 import Contact from './Components/Contact';
@@ -8,7 +10,7 @@ import Skills from './Components/Skills';
 
 function App() {
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
